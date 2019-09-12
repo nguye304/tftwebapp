@@ -1,0 +1,13 @@
+.lillegends-container{
+    display:flex;
+    justify-content: center;
+    color:black;
+    background-color:gray;
+    margin-right:10%;
+    margin-left:10%;
+}
+.legend-card{
+    border: black 10px solid;
+    height:200px;
+    width:600px;
+}

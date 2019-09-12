@@ -1,0 +1,29 @@
+.champion-container{
+    display:flex;
+    justify-content: center;
+    color:black;
+    margin-right:10%;
+    margin-left:10%;
+}
+.champion-card{
+    height:400px;
+    width:1000px;
+    border: black 10px solid;
+}
+
+
+.champion-portrait{
+
+    justify-content: center;
+
+}
+
+
+
+.champion-information{
+ 
+    font-size:20px;
+}
+.champion-info-container{
+    display:flex;
+}

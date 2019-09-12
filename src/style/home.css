@@ -1,0 +1,31 @@
+.home-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    flex-direction: column;
+    margin-left:10%;
+    margin-right:25%;
+}
+
+.tft-explanation{
+    border:black 2px solid;
+    background-color:purple;
+}
+
+.tft-mechanics{
+    border:orange 5px solid;
+    background-color :red;
+}
+.patch-notes{
+    border:black 10px solid;
+    background-color:purple
+}
+.donations{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+    flex-direction: row;
+    border:blue 5px solid;
+    background-color:black;
+    color:white;
+}

@@ -1,0 +1,59 @@
+.card{
+    left:50%;
+    position:relative;
+    height:100px;
+    width:400px;
+    z-index:0;
+    background:white;
+    border:black 5px solid;
+    box-shadow:2px 4px 25px rgba(0,0,0,.1);
+    border-radius:12px;
+    overflow:hidden;
+    transition:all .2s linear;
+}
+
+.split{
+    height:100%;
+    width:40%;
+    z-index:-1;
+    padding-right:10px;
+    padding-top:10px;
+    position:absolute;
+
+    
+}
+
+.left{
+    left:10%;
+    background-color:green;
+}
+
+.right{
+    right:10%;
+    background-color:red;
+}
+.centered {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(50%,-50%);
+    text-align:center;
+}
+.centered p{
+
+    float:right;
+
+}
+.centered img{
+    width:150px;
+    border-radius:50%;
+
+}
+
+.detbox{
+    top:25%;
+    right:25%;
+    border:black solid 10px;
+    background-color:blue;
+    position:absolute;
+}
